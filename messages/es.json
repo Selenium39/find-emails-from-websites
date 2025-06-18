@@ -1,0 +1,99 @@
+{
+  "title": "Extractor de Emails - Extraer Direcciones de Email de Sitios Web",
+  "description": "Herramienta profesional de extracción de emails de sitios web. Ingresa cualquier URL de sitio web para extraer rápida e inteligentemente todas las direcciones de email de la página. Soporta copia con un clic y exportación por lotes.",
+  "keywords": "extracción de emails, direcciones de email, emails de sitios web, recolección de emails, herramienta de extracción de emails",
+  "header": {
+    "title": "Extractor de Emails de Sitios Web",
+    "subtitle": "Ingresa cualquier URL de sitio web para extraer rápidamente todas las direcciones de email de la página"
+  },
+  "form": {
+    "title": "Configuración de Extracción de Emails",
+    "description": "Ingresa la URL del sitio web y selecciona el modo de extracción para comenzar a extraer direcciones de email",
+    "urlLabel": "URL del Sitio Web",
+    "urlPlaceholder": "Ingresa la URL del sitio web...",
+    "modeLabel": "Modo de Extracción",
+    "fastMode": {
+      "title": "Modo Rápido",
+      "description": "Analiza solo la página actual, velocidad rápida (recomendado)"
+    },
+    "deepMode": {
+      "title": "Modo Profundo",
+      "description": "Analiza la página actual y páginas de enlaces relacionados, cobertura más completa"
+    },
+    "captchaLabel": "Verificación Humana",
+    "submitButton": "Extraer Emails",
+    "extracting": "Extrayendo..."
+  },
+  "results": {
+    "title": "Resultados de Extracción",
+    "foundEmails": "Se encontraron {count} direcciones de email",
+    "noEmails": "No se encontraron direcciones de email en esta página",
+    "pageTitle": "Título de la Página",
+    "crawlInfo": "Modo de Rastreo: {mode} | Páginas Rastreadas: {pages}",
+    "copyEmail": "Copiar Email",
+    "copyAll": "Copiar Todo",
+    "download": "Descargar como TXT",
+    "emailsCopied": "Copiado: {email}",
+    "allEmailsCopied": "Se copiaron {count} direcciones de email",
+    "copyFailed": "Error al copiar, por favor copia manualmente"
+  },
+  "errors": {
+    "captchaRequired": "Por favor completa la verificación humana",
+    "requestFailed": "La solicitud falló",
+    "unknownError": "Ocurrió un error desconocido",
+    "captchaLoadFailed": "Error al cargar el captcha, por favor actualiza la página e inténtalo de nuevo"
+  },
+  "useCases": {
+    "title": "Casos de Uso",
+    "case1": {
+      "title": "Desarrollo de Negocios",
+      "description": "Obtén rápidamente información de contacto de clientes potenciales y socios para expandir la red de negocios"
+    },
+    "case2": {
+      "title": "Investigación de Mercado",
+      "description": "Recopila información de contacto de sitios web relacionados con la industria para análisis de mercado e investigación competitiva"
+    },
+    "case3": {
+      "title": "Contacto con Medios",
+      "description": "Obtén emails de contacto de medios, blogs y sitios de noticias para relaciones públicas y cooperación mediática"
+    },
+    "case4": {
+      "title": "Investigación Académica",
+      "description": "Recopila información de contacto de instituciones académicas e investigadores para promover el intercambio y cooperación académica"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "q1": {
+      "question": "¿Esta herramienta es gratuita?",
+      "answer": "¡Completamente gratuita! Este extractor de emails es completamente gratuito, sin registro requerido, sin límites de uso. Las funciones gratuitas incluyen: extracción ilimitada de emails, modos rápido y profundo, función de descarga por lotes, función de copia con un clic. Aunque la herramienta es gratuita, el servicio Firecrawl subyacente tiene límites de llamadas API. Para más cuota, consulta los consejos a continuación."
+    },
+    "q2": {
+      "question": "¿Cómo obtener más cuota de uso de Firecrawl?",
+      "answer": "Firecrawl proporciona cuota gratuita, para más puedes usar emails temporales para registrar múltiples cuentas. Puedes usar el servicio de email temporal de ChatTempMail para registrar múltiples cuentas de Firecrawl y obtener más cuota gratuita: 1. Visita chat-tempmail.com para obtener email temporal; 2. Usa el email temporal para registrar cuenta de Firecrawl; 3. Obtén la clave API y disfruta de la cuota gratuita; 4. Repite este proceso cuando sea necesario para más cuota."
+    },
+    "q3": {
+      "question": "¿Cuál es la diferencia entre el modo rápido y el modo profundo?",
+      "answer": "El modo rápido solo analiza la página actual, es rápido y consume poco, adecuado para la mayoría de escenarios, recomendado para uso diario. El modo profundo analiza la página actual y páginas enlazadas, hasta 10 páginas, cobertura más completa, adecuado para extracción profunda."
+    },
+    "q4": {
+      "question": "¿Son seguras las direcciones de email extraídas?",
+      "answer": "Tomamos muy en serio tu privacidad y seguridad de datos: Todo el procesamiento se realiza en tu navegador; No almacenamos ninguna dirección de email extraída; No registramos las URLs de sitios web que visitas; Recomendamos usar emails temporales para proteger tu privacidad."
+    }
+  },
+  "footer": {
+    "tempmail": "¿Necesitas email temporal?",
+    "visit": "Visita ChatTempMail",
+    "copyright": "Todos los derechos reservados"
+  },
+  "language": {
+    "switch": "Cambiar Idioma",
+    "english": "English",
+    "chinese": "中文",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch"
+  }
+} 

@@ -1,0 +1,99 @@
+{
+  "title": "E-Mail-Extraktor - E-Mail-Adressen von Websites extrahieren",
+  "description": "Professionelles Website-E-Mail-Extraktions-Tool. Geben Sie eine beliebige Website-URL ein, um schnell und intelligent alle E-Mail-Adressen der Seite zu extrahieren. Unterstützt Ein-Klick-Kopieren und Batch-Export.",
+  "keywords": "E-Mail-Extraktion, E-Mail-Adressen, Website-E-Mails, E-Mail-Sammlung, E-Mail-Extraktions-Tool",
+  "header": {
+    "title": "Website-E-Mail-Extraktor",
+    "subtitle": "Geben Sie eine beliebige Website-URL ein, um schnell alle E-Mail-Adressen der Seite zu extrahieren"
+  },
+  "form": {
+    "title": "E-Mail-Extraktions-Einstellungen",
+    "description": "Geben Sie die Website-URL ein und wählen Sie den Extraktionsmodus, um mit der E-Mail-Adress-Extraktion zu beginnen",
+    "urlLabel": "Website-URL",
+    "urlPlaceholder": "Website-URL eingeben...",
+    "modeLabel": "Extraktionsmodus",
+    "fastMode": {
+      "title": "Schneller Modus",
+      "description": "Analysiert nur die aktuelle Seite, schnelle Geschwindigkeit (empfohlen)"
+    },
+    "deepMode": {
+      "title": "Tiefenmodus",
+      "description": "Analysiert aktuelle Seite und verwandte Link-Seiten, umfassendere Abdeckung"
+    },
+    "captchaLabel": "Menschliche Verifikation",
+    "submitButton": "E-Mails extrahieren",
+    "extracting": "Extrahiere..."
+  },
+  "results": {
+    "title": "Extraktionsergebnisse",
+    "foundEmails": "{count} E-Mail-Adressen gefunden",
+    "noEmails": "Keine E-Mail-Adressen auf dieser Seite gefunden",
+    "pageTitle": "Seitentitel",
+    "crawlInfo": "Crawl-Modus: {mode} | Gecrawlte Seiten: {pages}",
+    "copyEmail": "E-Mail kopieren",
+    "copyAll": "Alle kopieren",
+    "download": "Als TXT herunterladen",
+    "emailsCopied": "Kopiert: {email}",
+    "allEmailsCopied": "{count} E-Mail-Adressen kopiert",
+    "copyFailed": "Kopieren fehlgeschlagen, bitte manuell kopieren"
+  },
+  "errors": {
+    "captchaRequired": "Bitte vervollständigen Sie die menschliche Verifikation",
+    "requestFailed": "Anfrage fehlgeschlagen",
+    "unknownError": "Ein unbekannter Fehler ist aufgetreten",
+    "captchaLoadFailed": "Captcha-Laden fehlgeschlagen, bitte Seite aktualisieren und erneut versuchen"
+  },
+  "useCases": {
+    "title": "Anwendungsfälle",
+    "case1": {
+      "title": "Geschäftsentwicklung",
+      "description": "Schnell Kontaktinformationen von potenziellen Kunden und Partnern erhalten, um das Geschäftsnetzwerk zu erweitern"
+    },
+    "case2": {
+      "title": "Marktforschung",
+      "description": "Kontaktinformationen von branchenbezogenen Websites sammeln für Marktanalyse und Wettbewerbsforschung"
+    },
+    "case3": {
+      "title": "Medienkontakt",
+      "description": "Kontakt-E-Mails von Medien, Blogs und Nachrichtenseiten erhalten für PR und Medienkooperation"
+    },
+    "case4": {
+      "title": "Akademische Forschung",
+      "description": "Kontaktinformationen von akademischen Institutionen und Forschern sammeln, um akademischen Austausch und Kooperation zu fördern"
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "q1": {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Völlig kostenlos! Dieser E-Mail-Extraktor ist vollständig kostenlos, keine Registrierung erforderlich, keine Nutzungsbeschränkungen. Kostenlose Funktionen umfassen: unbegrenzte E-Mail-Extraktion, schneller und Tiefenmodus, Batch-Download-Funktion, Ein-Klick-Kopier-Funktion. Obwohl das Tool kostenlos ist, hat der zugrunde liegende Firecrawl-Service API-Aufruf-Limits. Für mehr Kontingent siehe die Tipps unten."
+    },
+    "q2": {
+      "question": "Wie bekomme ich mehr Firecrawl-Nutzungskontingent?",
+      "answer": "Firecrawl bietet kostenloses Kontingent, für mehr können Sie temporäre E-Mails verwenden, um mehrere Konten zu registrieren. Sie können den temporären E-Mail-Service von ChatTempMail verwenden, um mehrere Firecrawl-Konten zu registrieren und mehr kostenloses Kontingent zu erhalten: 1. Besuchen Sie chat-tempmail.com für temporäre E-Mail; 2. Verwenden Sie temporäre E-Mail zur Firecrawl-Kontoregistrierung; 3. Erhalten Sie API-Schlüssel und genießen Sie kostenloses Kontingent; 4. Wiederholen Sie diesen Prozess bei Bedarf für mehr Kontingent."
+    },
+    "q3": {
+      "question": "Was ist der Unterschied zwischen schnellem Modus und Tiefenmodus?",
+      "answer": "Der schnelle Modus analysiert nur die aktuelle Seite, ist schnell und verbraucht wenig, geeignet für die meisten Szenarien, empfohlen für den täglichen Gebrauch. Der Tiefenmodus analysiert aktuelle Seite und verlinkte Seiten, bis zu 10 Seiten, umfassendere Abdeckung, geeignet für tiefgreifende Extraktion."
+    },
+    "q4": {
+      "question": "Sind die extrahierten E-Mail-Adressen sicher?",
+      "answer": "Wir nehmen Ihre Privatsphäre und Datensicherheit sehr ernst: Alle Verarbeitung erfolgt in Ihrem Browser; Wir speichern keine extrahierten E-Mail-Adressen; Wir zeichnen keine Website-URLs auf, die Sie besuchen; Wir empfehlen die Verwendung temporärer E-Mails zum Schutz Ihrer Privatsphäre."
+    }
+  },
+  "footer": {
+    "tempmail": "Benötigen Sie eine temporäre E-Mail?",
+    "visit": "Besuchen Sie ChatTempMail",
+    "copyright": "Alle Rechte vorbehalten"
+  },
+  "language": {
+    "switch": "Sprache wechseln",
+    "english": "English",
+    "chinese": "中文",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch"
+  }
+} 

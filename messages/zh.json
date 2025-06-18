@@ -1,0 +1,99 @@
+{
+  "title": "网站邮箱提取器 - 快速提取网页中的邮箱地址",
+  "description": "专业的网站邮箱地址提取工具，输入任何网站URL，快速智能提取页面中的所有邮箱地址。支持一键复制和批量导出。",
+  "keywords": "邮箱提取, 邮箱地址, 网站邮箱, 邮箱搜集, Email提取工具",
+  "header": {
+    "title": "网站邮箱提取器",
+    "subtitle": "输入任何网站URL，我们将帮您快速提取页面中的所有邮箱地址"
+  },
+  "form": {
+    "title": "邮箱提取设置",
+    "description": "输入网站URL并选择提取模式，开始提取邮箱地址",
+    "urlLabel": "网站URL",
+    "urlPlaceholder": "输入网站URL...",
+    "modeLabel": "提取模式",
+    "fastMode": {
+      "title": "快速模式",
+      "description": "只分析当前页面，速度快（推荐）"
+    },
+    "deepMode": {
+      "title": "深度模式",
+      "description": "分析当前页面及相关链接页面，覆盖更全面"
+    },
+    "captchaLabel": "人机验证",
+    "submitButton": "提取邮箱",
+    "extracting": "提取中..."
+  },
+  "results": {
+    "title": "提取结果",
+    "foundEmails": "找到 {count} 个邮箱地址",
+    "noEmails": "此页面未找到邮箱地址",
+    "pageTitle": "页面标题",
+    "crawlInfo": "爬取模式：{mode} | 已爬取页面：{pages} 个",
+    "copyEmail": "复制邮箱",
+    "copyAll": "复制全部",
+    "download": "下载为TXT",
+    "emailsCopied": "已复制: {email}",
+    "allEmailsCopied": "已复制 {count} 个邮箱地址",
+    "copyFailed": "复制失败，请手动复制"
+  },
+  "errors": {
+    "captchaRequired": "请完成人机验证",
+    "requestFailed": "请求失败",
+    "unknownError": "发生未知错误",
+    "captchaLoadFailed": "验证码加载失败，请刷新页面重试"
+  },
+  "useCases": {
+    "title": "使用场景",
+    "case1": {
+      "title": "商务拓展",
+      "description": "快速获取潜在客户和合作伙伴的联系方式，扩展商务网络"
+    },
+    "case2": {
+      "title": "市场调研",
+      "description": "收集行业相关网站的联系信息，进行市场分析和竞品调研"
+    },
+    "case3": {
+      "title": "媒体联系",
+      "description": "获取媒体、博客和新闻网站的联系邮箱，用于PR和媒体合作"
+    },
+    "case4": {
+      "title": "学术研究",
+      "description": "收集学术机构和研究人员的联系方式，促进学术交流与合作"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "q1": {
+      "question": "这个工具收费吗？",
+      "answer": "完全免费使用！本邮箱提取器完全免费，无需注册，无使用限制。免费包含：无限次数的邮箱提取、快速模式和深度模式、批量下载功能、一键复制功能。虽然工具免费，但底层使用的Firecrawl服务有API调用限制。如需更多额度，可参考下方的获取技巧。"
+    },
+    "q2": {
+      "question": "如何获取更多的Firecrawl使用额度？",
+      "answer": "Firecrawl提供免费额度，如需更多可以使用临时邮箱注册多个账号。您可以使用 ChatTempMail 的临时邮箱服务来注册多个Firecrawl账号，获取更多免费额度：1. 访问 chat-tempmail.com 获取临时邮箱；2. 使用临时邮箱注册 Firecrawl账号；3. 获取API密钥并享受免费额度；4. 需要时重复此过程获取更多额度。"
+    },
+    "q3": {
+      "question": "快速模式和深度模式有什么区别？",
+      "answer": "快速模式只分析当前页面，速度快，消耗少，适合大多数场景，推荐日常使用。深度模式分析当前页面及链接页面，最多分析10个页面，覆盖更全面，适合深度挖掘。"
+    },
+    "q4": {
+      "question": "提取到的邮箱地址安全吗？",
+      "answer": "我们非常重视您的隐私和数据安全：所有处理都在您的浏览器中进行；我们不存储任何提取的邮箱地址；不会记录您访问的网站URL；建议使用临时邮箱保护您的隐私。"
+    }
+  },
+  "footer": {
+    "tempmail": "需要临时邮箱？",
+    "visit": "访问ChatTempMail获取",
+    "copyright": "版权所有"
+  },
+  "language": {
+    "switch": "切换语言",
+    "english": "English",
+    "chinese": "中文",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch"
+  }
+} 

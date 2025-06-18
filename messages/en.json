@@ -1,0 +1,99 @@
+{
+  "title": "Email Extractor - Extract Email Addresses from Websites",
+  "description": "Professional website email extraction tool. Enter any website URL to quickly and intelligently extract all email addresses from the page. Supports one-click copy and batch export.",
+  "keywords": "email extraction, email addresses, website emails, email collection, email extraction tool",
+  "header": {
+    "title": "Website Email Extractor",
+    "subtitle": "Extract email addresses from any website quickly and easily"
+  },
+  "form": {
+    "title": "Email Extraction Settings",
+    "description": "Enter website URL and select extraction mode to start extracting email addresses",
+    "urlLabel": "Website URL",
+    "urlPlaceholder": "Enter website URL...",
+    "modeLabel": "Extraction Mode",
+    "fastMode": {
+      "title": "Fast Mode",
+      "description": "Analyze current page only, fast speed (recommended)"
+    },
+    "deepMode": {
+      "title": "Deep Mode", 
+      "description": "Analyze current page and related link pages, more comprehensive coverage"
+    },
+    "captchaLabel": "Human Verification",
+    "submitButton": "Extract Emails",
+    "extracting": "Extracting..."
+  },
+  "results": {
+    "title": "Extraction Results",
+    "foundEmails": "Found {count} email addresses",
+    "noEmails": "No email addresses found on this page",
+    "pageTitle": "Page Title",
+    "crawlInfo": "Crawl Mode: {mode} | Pages Crawled: {pages}",
+    "copyEmail": "Copy Email",
+    "copyAll": "Copy All",
+    "download": "Download as TXT",
+    "emailsCopied": "Copied: {email}",
+    "allEmailsCopied": "Copied {count} email addresses",
+    "copyFailed": "Copy failed, please copy manually"
+  },
+  "errors": {
+    "captchaRequired": "Please complete human verification",
+    "requestFailed": "Request failed",
+    "unknownError": "Unknown error occurred",
+    "captchaLoadFailed": "Captcha failed to load, please refresh and try again"
+  },
+  "useCases": {
+    "title": "Use Cases",
+    "case1": {
+      "title": "Business Development",
+      "description": "Quickly obtain contact information of potential customers and partners to expand business network"
+    },
+    "case2": {
+      "title": "Market Research",
+      "description": "Collect contact information from industry-related websites for market analysis and competitive research"
+    },
+    "case3": {
+      "title": "Media Outreach",
+      "description": "Get contact emails from media, blogs and news websites for PR and media cooperation"
+    },
+    "case4": {
+      "title": "Academic Research",
+      "description": "Collect contact information from academic institutions and researchers to promote academic exchange and cooperation"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "Is this tool free to use?",
+      "answer": "Completely free! This email extractor is completely free, no registration required, no usage limits. Free features include: unlimited email extraction, fast and deep modes, batch download functionality, one-click copy feature. While the tool is free, the underlying Firecrawl service has API call limits. For more quota, see the tips below."
+    },
+    "q2": {
+      "question": "How to get more Firecrawl usage quota?",
+      "answer": "Firecrawl provides free quota, for more you can use temporary emails to register multiple accounts. You can use ChatTempMail's temporary email service to register multiple Firecrawl accounts for more free quota: 1. Visit chat-tempmail.com to get temporary email; 2. Use temporary email to register Firecrawl account; 3. Get API key and enjoy free quota; 4. Repeat this process when needed for more quota."
+    },
+    "q3": {
+      "question": "What's the difference between fast mode and deep mode?",
+      "answer": "Fast mode only analyzes the current page, fast speed, low consumption, suitable for most scenarios, recommended for daily use. Deep mode analyzes current page and linked pages, up to 10 pages, more comprehensive coverage, suitable for deep mining."
+    },
+    "q4": {
+      "question": "Are the extracted email addresses secure?",
+      "answer": "We take your privacy and data security very seriously: All processing is done in your browser; We don't store any extracted email addresses; We don't record the website URLs you visit; We recommend using temporary emails to protect your privacy."
+    }
+  },
+  "footer": {
+    "tempmail": "Need temporary email?",
+    "visit": "Visit ChatTempMail",
+    "copyright": "All rights reserved"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "chinese": "中文",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch"
+  }
+} 
