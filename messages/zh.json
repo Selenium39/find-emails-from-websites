@@ -4,7 +4,8 @@
   "keywords": "邮箱提取, 邮箱地址, 网站邮箱, 邮箱搜集, Email提取工具",
   "header": {
     "title": "网站邮箱提取器",
-    "subtitle": "输入任何网站URL，我们将帮您快速提取页面中的所有邮箱地址"
+    "subtitle": "输入任何网站URL，我们将帮您快速提取页面中的所有邮箱地址",
+    "github": "在GitHub上查看源码"
   },
   "form": {
     "title": "邮箱提取设置",

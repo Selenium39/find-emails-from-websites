@@ -4,7 +4,8 @@
   "keywords": "E-Mail-Extraktion, E-Mail-Adressen, Website-E-Mails, E-Mail-Sammlung, E-Mail-Extraktions-Tool",
   "header": {
     "title": "Website-E-Mail-Extraktor",
-    "subtitle": "Geben Sie eine beliebige Website-URL ein, um schnell alle E-Mail-Adressen der Seite zu extrahieren"
+    "subtitle": "Geben Sie eine beliebige Website-URL ein, um schnell alle E-Mail-Adressen der Seite zu extrahieren",
+    "github": "Quellcode auf GitHub ansehen"
   },
   "form": {
     "title": "E-Mail-Extraktions-Einstellungen",

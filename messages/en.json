@@ -4,7 +4,8 @@
   "keywords": "email extraction, email addresses, website emails, email collection, email extraction tool",
   "header": {
     "title": "Website Email Extractor",
-    "subtitle": "Extract email addresses from any website quickly and easily"
+    "subtitle": "Extract email addresses from any website quickly and easily",
+    "github": "View Source Code on GitHub"
   },
   "form": {
     "title": "Email Extraction Settings",

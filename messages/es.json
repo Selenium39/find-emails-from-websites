@@ -4,7 +4,8 @@
   "keywords": "extracción de emails, direcciones de email, emails de sitios web, recolección de emails, herramienta de extracción de emails",
   "header": {
     "title": "Extractor de Emails de Sitios Web",
-    "subtitle": "Ingresa cualquier URL de sitio web para extraer rápidamente todas las direcciones de email de la página"
+    "subtitle": "Ingresa cualquier URL de sitio web para extraer rápidamente todas las direcciones de email de la página",
+    "github": "Ver Código Fuente en GitHub"
   },
   "form": {
     "title": "Configuración de Extracción de Emails",

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { HiMail, HiGlobeAlt, HiSearch, HiClipboard, HiDownload, HiChevronDown, HiLightBulb } from 'react-icons/hi';
+import { FaGithub } from 'react-icons/fa';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
@@ -119,9 +120,20 @@ export default function Home() {
               {t('header.title')}
             </h1>
           </div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-4">
             {t('header.subtitle')}
           </p>
+          <div className="flex justify-center">
+            <a
+              href="https://github.com/Selenium39/find-emails-from-websites"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors duration-200 text-sm font-medium"
+            >
+              <FaGithub className="mr-2 text-lg" />
+              {t('header.github')}
+            </a>
+          </div>
         </div>
 
         {/* Main Form */}
