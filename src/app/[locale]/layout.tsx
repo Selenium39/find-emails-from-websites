@@ -79,6 +79,7 @@ export default async function RootLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3914969090265698"
              crossOrigin="anonymous"></script>
+        <script defer src="https://umami.selenium39.me/script.js" data-website-id="8ea6368c-71ec-40fd-8145-d4b711fd3738"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
